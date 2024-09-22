@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Room"
 include(":app")
+include(":shared")

@@ -62,5 +62,6 @@ dependencies {
     //annotationProcessor(libs.androidx.room.compiler)
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.androidx.lifecycle.runtime.ktx.v262)
+    implementation(project(":shared"))
 
 }
