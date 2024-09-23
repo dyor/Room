@@ -59,9 +59,8 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation(libs.androidx.room.runtime)
     ksp(libs.androidx.room.compiler)
-    //annotationProcessor(libs.androidx.room.compiler)
     implementation(libs.kotlinx.coroutines.android)
-    implementation(libs.androidx.lifecycle.runtime.ktx.v262)
+    implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(project(":shared"))
 
 }
